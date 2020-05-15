@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Change the id to your domain and app name in this order-->
+<widget xmlns="http://www.w3.org/ns/widgets"
+		
+xmlns:gap="http://phonegap.com/ns/1.0"
+
+id="space.thomasbrowndesign.currencyconverter_app"
+		
+versionCode="10"
+		
+version="1.0.0">
+
+
+<access origin="*://*.googleapis.com/*" subdomains="true" />
+<access origin="*://*.gstatic.com/*" subdomains="true" />
+<access origin="*://*.google.com/*" subdomains="true" />
+<access origin="*://*.googleusercontent.com/*" subdomains="true" />
+
+<!--versionCode is optional and Android only-->
+
+<!--Change icon to the name of your icon-->
+<icon src="images/ccappicon.png" />
+
+<!--Change name to the name of your app-->
+<name>Currency Conversion</name>
+
+<description>
+	
+	A Currency Conversion
+	
+</description>
+<!--Change Author to your domain, email, and name.	-->
+<author href="https://www.thomasbrowndesign.space" email="thomasebrown@thomasbrowndesign.space">
+		
+		Thomas Brown
+		
+</author>
+
+</widget>

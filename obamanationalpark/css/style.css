@@ -1,0 +1,467 @@
+@charset "utf-8";
+/* CSS Document*/
+/* font-family: 'Literata', serif;     font-family: 'Quicksand', sans-serif;     font-family: 'Arima Madurai', cursive;*/
+/*Basic Structures Sections*/ 
+html{
+    font-size: 100%;
+}
+
+body{
+    background-image: url("../images/white-waves.png"); 
+    font-size: 1rem;
+    margin : 0px ;
+    padding : 0px;
+}
+
+footer{
+    width: 960px ;
+    background-color: rgb(8, 8, 8);
+}
+
+#pagewrapper{
+    margin-left: auto; 
+    margin-right : auto;
+    margin-top: 0px ; 
+    margin-bottom: 0px ;
+    width: 960px;
+    background-color: #fff ;
+}
+
+.surfboard{
+    margin-left: auto; 
+    margin-right : auto;
+    margin-top: 0px ; 
+    margin-bottom: 0px ;
+    width: 960px;
+    border-radius: 20%;
+    background-color: rgb(175, 149, 126) ;
+}
+
+.center{
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align : center;
+}
+ 
+header { 
+    margin : 0;
+    padding: 0;
+    height: 200px;
+    background-color: rgb(12, 12, 12);
+}
+
+/*Navigation Section*/
+nav{
+    font-size: 1.3rem; 
+    margin-top: 72px; 
+    margin-bottom: 30px;
+    /* background-color: rgb(27, 189, 40); */
+}
+
+.innernav {
+    width: 780px; 
+    margin : 0 auto;
+   /* background-color: #824f23; */
+}
+ 
+nav ul{
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block; 
+    text-decoration: none; 
+    width:  175px; 
+   /* background-color: #ff0; */
+    text-align: center;
+    font-family: 'Literata', serif;
+}
+ 
+a:link{
+    text-decoration: none; 
+    color: rgb(14, 179, 230);
+    font-family: 'Literata', sans-serif;
+    text-align: center;
+}
+
+a:visited{
+    text-decoration: none; 
+    color: rgb(14, 179, 230);
+    font-family: 'Literata', sans-serif;
+}
+ 
+a:hover {
+    text-decoration: none; 
+    color: white;
+    font-weight: 700;
+    font-family: 'Literata', sans-serif;
+} 
+
+a:active{
+    text-decoration: none; 
+    color: rgb(37, 238, 11);
+    font-weight: 700;
+    font-family: 'Literata', sans-serif;
+}
+
+a:focus{
+    text-decoration : none; 
+    color: rgb(108, 4, 226) ;
+    font-weight: 700;
+    font-family: 'Literata', sans-serif;
+}
+ 
+.subnav{
+    font-size: 18px; 
+    font-weight: 400px; 
+    display: inline; 
+    width: 300px;
+    /* background-color: #eb2d0c; */
+} 
+
+.subnav ul{
+    text-decoration: none; 
+    text-align : center ;
+    padding-left: 10px;
+    /* background-color: #0c0cdf; */
+}
+
+.subnav ul li{
+    display: inline-block; 
+    width: 200px;
+    text-decoration: none ; 
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+   /* background-color: #2fdd18; */
+}
+
+/* Div and Spacing Fomatting - Business site (travel agency) */
+/*Div Spans Section*/
+.span01, .span02, .span03, .span04, .span05, .span06, .span07, .span08, .span09, .span10, .span11, .span12 {
+    display: inline-block;
+    float: left;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first-child{
+    margin-left: 0px;
+}
+
+.last-child{
+    margin-right: 0px;
+}
+
+.span01{
+    width: 60px; 
+    /* background-color: teal; */
+}
+
+.span02{
+    width: 140px;
+    /* background-color: rgb(27, 189, 40);  */
+    text-align: center;
+}
+
+.span03{
+    width: 220px;
+    /* background-color: lightgreen; */
+}
+
+.span04{
+    width: 300px; 
+    /* background-color: brown; */
+}
+
+.span05{
+    width: 380px;
+    /* background-color: rgb(14, 115, 231); */
+}
+
+.span06{
+    width: 460px ; 
+    /* background-color: red; */
+}
+
+.span07{
+    width: 540px; 
+    /* background-color: teal; */
+}
+
+.span08{
+    width: 620px ; 
+    /* background-color: green; */
+}
+
+.span09{
+    width: 700px; 
+    /* background-color: plum ; */
+}
+
+.span10{
+    width: 780px;
+    /* background-color: rgb(209, 9, 209); */
+}
+
+.span11 {
+    width: 860px;
+    /* background-color: grey; */
+}
+
+.span12{
+    width: 940 px ;
+    /* background-color: black ; */
+}
+
+.reset{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0 ;
+    height: 0px;
+}
+    
+    /*Headings & Text Section*/
+
+    h1{
+    font-family: 'Arima Madurai', sans-serif; 
+    font-size: 40px;
+    font-weight: 700px; 
+    color: black; 
+    text-align: center;
+    padding-top: 0%;
+    }
+
+    h2{
+        font-family: 'Literata', serif; 
+        font-weight: 700px;
+        font-size: 26px; 
+        margin-top: 5px; 
+        margin-bottom: 20px; 
+        color: black;
+        text-align: center;
+    }
+         
+        h3{
+            font-family: 'Literata', serif; 
+            font-weight: 600px;
+            font-size: 24px; 
+            margin-bottom: 18px; 
+            color: black; 
+            text-align : center;        
+        }
+        
+        h4{
+            font-family: 'Literata', serif; 
+            font-weight: 500;
+            font-size: 21px; 
+            margin-bottom: 15px; 
+            color: black; 
+            /* text-align: center;         */
+        }
+        
+        h5{
+            font-family: 'Literata', serif; 
+            font-weight: 400px;
+            font-size: 18px; 
+            margin-bottom: 10px; 
+            color: black; 
+            /* text-align: center;         */
+        }
+        
+        h6{
+            font-family: 'Literata', serif; 
+            font-weight: 300;
+            font-size: 15px; 
+            margin-bottom: 0px; 
+            color: black; 
+            /* text-align: center;         */
+        }
+        
+        p {
+            font-family : 'Quicksand', sans-serif; 
+            font-size: .9rem;
+            font-weight: 400; 
+            /* padding : 5px;  */
+            text-align : left;
+            line-height: 1.2rem; 
+            letter-spacing : .1em;
+        }
+
+        #pwhite {
+            font-family : 'Quicksand', sans-serif; 
+            font-size: .9rem;
+            font-weight: 700; 
+            padding : 5px; 
+            text-align : center;
+            line-height: .95rem; 
+            letter-spacing : .1em;
+            margin-top: 30px;
+            color: white; 
+        }
+
+
+/* Attraction Information */
+
+.attractiondesc {
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 0px; 
+}
+
+.attractionname {
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(2, 53, 5);
+    font-size: 20px;
+}
+
+.attractioninfo ul {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    padding-left: 80px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px; 
+}
+
+
+.attractioninfo li {
+    list-style-image: url("../images/plumeriav1.jpg");
+    list-style-position: inside;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 0px; 
+}
+
+/* Form Section */
+
+h2.account {
+    background-color: #05253b;
+    color: #fff;
+}
+h2.address {
+    background-color: #05253b;
+    color: #fff;
+}
+h2.public-profile {
+    background-color: #05253b;
+    color: #fff;
+}
+h2.authorization {
+    background-color: #05253b;
+    color: #fff;
+}
+h2.emails {
+    background-color: #05253b;
+    color: #fff;
+}
+legend {
+    background-color: #dedede;
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+    -moz-box-shadow: 3px 3px 3px #ccc;
+    -webkit-box-shadow: 3px 3px 3px #ccc;
+    box-shadow: 3px 3px 3px #ccc;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    padding: 0.3em 1em;
+}
+fieldset {
+    font-family: 'Quicksand', sans-serif;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    border-bottom: 12px;
+    overflow: hidden;
+    padding: 0 10px;
+    color: black;
+}
+.form {
+    background-color: #fff;
+    list-style: none;
+    padding: 12px;
+    margin: 0.5em 0;
+    /* width: 200px; */
+}
+label {
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: right;
+    width: 135px;
+    vertical-align: top;
+}
+input, select, button {
+    font: inherit;
+}
+.small {
+    width: 75px;
+}
+.medium {
+    width: 150px;
+}
+.large {
+    width: 250px;
+}
+textarea {
+    font: inherit;
+    width: 620px;
+}
+.instructions {
+    font-size: 75%;
+    padding-left: 167px;
+    font-style: italic;
+}
+.create_profile {
+    background-color: #041d2e;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px #333;
+    width: 150px;
+    cursor: pointer;
+    font-family: 'Literata', serif;
+    color: #fff;
+    margin: 12px;
+    padding: 8px;
+}
+.radios {
+    background: none;
+    display: inline;
+    margin-left: 350px;
+    margin-right: auto;
+    padding: 0;
+}
+.radios ul {
+    border: none;
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.radios li {
+    margin: 0;
+    display: inline-block;
+}
+.radios label {
+    margin-right: 25px;
+    width: auto;
+}
+.radios input {
+    margin-top: 3px;
+}
+.checkboxes label {
+    text-align: left;
+    width: 575px;
+}
+button * {
+    vertical-align: middle;
+}

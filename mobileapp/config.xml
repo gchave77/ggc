@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Change the id to your domain and app name in this order-->
+<widget xmlns="http://www.w3.org/ns/widgets"
+		
+xmlns:gap="http://phonegap.com/ns/1.0"
+
+id="space.gabechavezdesign.mobile_app"
+		
+versionCode="10"
+		
+version="1.0.0">
+
+<access origin="*://*.googleapis.com/*" subdomains="true" />
+<access origin="*://*.gstatic.com/*" subdomains="true" />
+<access origin="*://*.google.com/*" subdomains="true" />
+<access origin="*://*.googleusercontent.com/*" subdomains="true" />
+
+<!--versionCode is optional and Android only-->
+
+<!--Change icon to the name of your icon-->
+<icon src="images/appicon.png" />
+
+<!--Change name to the name of your app-->
+<name>Tiare Travel</name>
+
+<description>
+	
+	A Travel Mobile Application to review status of itinerary plans made with Tiare Travel. 
+	
+</description>
+<!--Change Author to your domain, email, and name.	-->
+<author href="https://www.gabechavezdesign.space" email="gabe.chavez@hotmail.com">
+		
+		Gabriel Chavez
+		
+</author>
+
+</widget>
